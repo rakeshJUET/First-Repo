@@ -24,10 +24,10 @@ localtime=time.asctime(time.localtime(time.time()))
 
 #--------------time------------------------------------
 
-lblInfo = Label(Tops,font=('arial',30,'bold'),text="Restaurant Management System",fg="Steel Blue", bd=10,anchor='w')
+lblInfo = Label(Tops,font=('Times New Roman',30,'bold'),text="Restaurant Management System",fg="Steel Blue", bd=10,anchor='w')
 lblInfo.grid(row=0,column=0)
 
-lblInfo = Label(Tops,font=('arial',20,'bold'),text=localtime,fg="Steel Blue", bd=10,anchor='w')
+lblInfo = Label(Tops,font=('Times New Roman',20,'bold'),text=localtime,fg="Steel Blue", bd=10,anchor='w')
 lblInfo.grid(row=1,column=0)
 
 #111111111111111111111111111111111111111111111111111111
